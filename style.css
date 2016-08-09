@@ -1,19 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Fugaz+One);
 body {
-  background-color: #DCE0C5;
-  font-family: "Libre Baskerville";
+    background-color: #DCE0C5;
+    font-family: "Libre Baskerville";
 }
 h1 {
-  font-family: "Fugaz One";
+    font-family: "Fugaz One";
+}
+.container {
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 80px;
 }
 .panel {
-  margin-left: 9px;
-  border-radius: 10px;
+    margin-left: 9px;
+    border-radius: 10px;
 }
 .panel:hover {
-  border-left: 10px solid #557745;
-  margin-left: 0;
+    border-left: 10px solid #557745;
+    margin-left: 0;
 }
 a:hover {
-  text-decoration:none;
+    text-decoration: none;
 }
